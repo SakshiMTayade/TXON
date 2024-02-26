@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakshi - My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.02rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 3rem;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(170, 107, 228);
+      }
+      .secondSection {
+        max-width: 82vw;
+        margin: auto;
+        height: 42vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 50px 90px;
+      }
+      .secondSection .box {
+        background: white;
+        width: 78vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 70px;
+        width: 1px;
+        background-color: white;
+        margin: 0 85px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-text {
+        position: relative;
+        top: 72px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .thirdSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 28vh;
+      }
+      .thirdSection a {
+        color: #9c97f1;
+        text-decoration: none;
+      }
+      .thirdSection h2 {
+        margin-bottom: 10px;
+      }
+      /*footer {
+        background-color: #0e0e1a;
+        height: 233px;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+      }*/
+      .footer {
+        height: 75px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        background-color: #0e0e1a;
+      }
+      .icons {
+        padding-top: 10px;
+      }
+      .icons a {
+        color: white;
+        padding-right: 18px;
+      }
+      .footer p {
+        padding-top: 10px;
+        font-size: 15px;
+      }
+      .end-text p {
+        text-align: center;
+        background: #272829;
+        color: var(--other-color);
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sakshi's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi! My name is <span class="purple">Sakshi</span>
+
+          <div>and I'm a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.76PS_dvxVQcI2PlcQPOxHwHaHa&pid=Api&P=0&h=220"
+            alt=""
+          />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Skills</h1>
+        <div class="box">
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="https://tse3.mm.bing.net/th?id=OIP.pqcPskVdTrJqfhZ-Z49AtQHaHn&pid=Api&P=0&h=220"
+              alt=""
+            />
+            <div class="vertical-text">HTML</div>
+          </div>
+
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="https://tse4.mm.bing.net/th?id=OIP.tAvAD5lCtDJSjywplxd37QHaEo&pid=Api&P=0&h=220"
+              alt=""
+            />
+            <div class="vertical-text">CSS</div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="https://tse3.mm.bing.net/th?id=OIP.25vSXGJsvi1u3JIjcfvfNQHaEo&pid=Api&P=0&h=220"
+              alt=""
+            />
+            <div class="vertical-text">JavaScript</div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="https://tse1.mm.bing.net/th?id=OIP.iIXOmGDzrtTJmdwbn7cGMwHaEJ&pid=Api&P=0&h=220"
+              alt=""
+            />
+            <div class="vertical-text">Java</div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="https://tse3.mm.bing.net/th?id=OIP.bkbn2-K7c9rMBV5dvYXDrQHaIh&pid=Api&P=0&h=220"
+              alt=""
+            />
+            <div class="vertical-text">C</div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="https://tse2.mm.bing.net/th?id=OIP.Jfgq6_v3gqylklTDZWPLbgHaEk&pid=Api&P=0&h=220"
+              alt=""
+            />
+            <div class="vertical-text">C++</div>
+          </div>
+          <div class="vertical">
+            <img
+              class="image-top"
+              src="https://tse1.mm.bing.net/th?id=OIP.pkqphAig1t-PCsy4dkVrfAHaD5&pid=Api&P=0&h=220"
+              alt=""
+            />
+            <div class="vertical-text">PHP</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="thirdSection">
+        <h2>Contact Info</h2>
+        <p>
+          Email:
+          <a href="sakshitayade227@gmail.com">sakshitayade227@gamil.com</a>
+        </p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/sakshi-tayade227"
+            >https://www.linkedin.com/in/sakshi-tayade227</a
+          >
+        </p>
+        <a href="RESUME1.pdf" target="_blank">Download Resume</a>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <p>Follow Us On</p>
+
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="end-text">
+        <p>
+          © 2024 <span class="purple">Sakshi Tayade.</span> All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "FrontEnd Developer",
+          "Java Developer",
+          "Problem Solver",
+          "Creative Thinker",
+          "Leader",
+          "Good at Teamwork",
+          "Time Managiable",
+          "Fast Adapter",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
